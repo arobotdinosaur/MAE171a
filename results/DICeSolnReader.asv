@@ -5,7 +5,7 @@ clc;
 clear all;
 close all;
 
-mydata=readmatrix('DICe_solution_30.txt');
+mydata=readmatrix('DICe_solution_02.txt');
 
 
 strain_yy=mydata(:,12);
@@ -78,5 +78,3 @@ strain_xy_102_6_1_30= 0;
 
 
 dyy_9_6_2_30 = -strain_yy_99_6_1_2+ strain_yy_99_6_1_30
-dyy_105_6_2_30 = -strain_yy_105_6_1_2 + strain_yy_105_6_1_30
-dyy_102_6_2_30 = -strain_yy_102_6_1_2 + strain_yy_102_6_1_30
